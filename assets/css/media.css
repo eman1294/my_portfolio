@@ -1,0 +1,61 @@
+/*---------------------tablet---------------*/
+@media (max-width:991px) {
+        header {
+        background-position: 40%;
+    }
+
+    #resume .resume-title {
+        color: #fff;
+    }
+
+    .portfolio .portfolio-content .list {
+        justify-content: space-evenly;
+    }
+    .portfolio .portfolio-title {
+        width: 100%;
+    }
+    footer .info{
+        text-align: center;
+    }
+        .contact .contact-title{
+            width: 100%;
+            text-align: left;
+        }
+}
+
+/*---------------------mobile---------------*/
+@media(max-width:757px) {
+    header {
+        background-position: 30%;
+    }
+
+    header .header-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .header-title h1 {
+        font-size: 20px;
+    }
+
+    header .header-title p {
+        font-size: 16px;
+    }
+
+    .portfolio .portfolio-content .list {
+        justify-content: space-evenly;
+    }
+
+    .portfolio .portfolio-title {
+        width: 100%;
+    }
+
+    #resume .resume-title {
+        color: #fff;
+    }
+
+    .contact .contact-title {
+        width: 100%;
+    }
+
+}
